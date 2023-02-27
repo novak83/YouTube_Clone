@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Comaptible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="/static/css/index.css">
+    <title>YouTube Clone with HTML & CSS</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo left">
+            <i id="menu" class="material-icons">menu</i>
+            <img src="/static/img/YouTube_Logo.JPG">
+        </div>
+
+        <div class="search center">
+            <form action="">
+                <input type="text" placeholder="Search">
+                <button><i class="material-icons">search</i></button>
+            </form>
+            <i class="material-icons mic">mic</i>
+        </div>
+
+        <div class="icons right">
+            <i class="material-icons">videocam</i>
+            <i class="material-icons">apps</i>
+            <i class="material-icons">notifications</i>
+            <i class="material-icons display-this">account_circle</i>
+        </div>
+    </header>
+    <main>
+        <div class="side-bar">
+            <div class="nav">
+                <a class="nav-link active">
+                    <i class="material-icons">home</i>
+                    <span>Home</span>
+                </a>
+                <a class="nav-link">
+                    <i class="material-icons">local_fire_department</i>
+                    <span>Trending</span>
+                </a>
+                <a class="nav-link">
+                    <i class="material-icons">subscriptions</i>
+                    <span>Subscriptions</span>
+                </a>
+            </div>
+            <hr>
+                <a class="nav-link">
+                    <i class="material-icons">library_add_check</i>
+                    <span>Library</span>
+                </a>
+                <a class="nav-link">
+                    <i class="material-icons">history</i>
+                    <span>History</span>
+                </a>
+                <a class="nav-link">
+                    <i class="material-icons">play_arrow</i>
+                    <span>Your Videos</span>
+                </a>
+                <a class="nav-link">
+                    <i class="material-icons">watch_later</i>
+                    <span>Watch Later</span>
+                </a>
+                <a class="nav-link">
+                    <i class="material-icons">thumb_up</i>
+                    <span>Liked Videos</span>
+                </a>
+        </div>
+        <div class="content">
+            <div class="videos">
+                <!-- a video starts -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <a href="https://www.youtube.com/watch?v=-w-OADkLsT8" target="_blank"><img src="/static/img/nashville.JPG" alt=""></a>
+                    </div>
+
+                    <div class="details">
+                        <div class="author">
+                            <img src="/static/img/nashville_author.JPG" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                The Music Nashville - Life That's Good (Connie Britton, Charles Esten Lennon & Maisy Stella)
+                            </h3>
+                            <a href="https://www.youtube.com/@musicofnashville7536" target="_blank">
+                                The Music Of Nashville
+                            </a>
+                            <span> 9,2 Thous. Views • 7 Years Ago </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- a video Ends -->
+                <!-- a video starts -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <a href="https://www.youtube.com/watch?v=e5rtnBRrRBs" target="_blank"><img src="/static/img/hv.JPG" alt=""></a>
+                    </div>
+
+                    <div class="details">
+                        <div class="author">
+                            <img src="/static/img/hv_author.JPG" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                High Valley - Country Music, Girls And Trucks (Official Music Video)
+                            </h3>
+                            <a href="https://www.youtube.com/@highvalleymusic" target="_blank">
+                                High Valley
+                            </a>
+
+                            <span> 282 Thous. Views • 9 Month Ago </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- a video Ends -->
+                <!-- a video starts -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <a href="https://www.youtube.com/watch?v=qWL9Wkiyz98" target="_blank"><img src="/static/img/kb.JPG" alt=""></a>
+                    </div>
+
+                    <div class="details">
+                        <div class="author">
+                            <img src="/static/img/kb_author.JPG" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Kaylee Bell - Keith (Official Music Video)
+                            </h3>
+                            <a href="https://www.youtube.com/@kayleebell" target="_blank">
+                                Kaylee Bell
+                            </a>
+                            <span> 886 Thous. Views • 3 Years Ago </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- a video Ends -->
+                <!-- a video starts -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <a href="https://www.youtube.com/watch?v=MEv4Hzf8Hhw" target="_blank"><img src="/static/img/mw.JPG" alt=""></a>
+                    </div>
+
+                    <div class="details">
+                        <div class="author">
+                            <img src="/static/img/mw_author.JPG" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Morgan Wallen - Everything I Love (Lyrics Video)
+                            </h3>
+                            <a href="https://www.youtube.com/@morganwallen" target="_blank">
+                                Morgan Wallen
+                            </a>
+                            <span> 886 Thous. Views • 3 Weeks Ago </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- a video Ends -->
+                <!-- a video starts -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <a href="https://www.youtube.com/watch?v=0TV45CmCBr8" target="_blank"><img src="/static/img/cr.JPG" alt=""></a>
+                    </div>
+
+                    <div class="details">
+                        <div class="author">
+                            <img src="/static/img/cr_author.JPG" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Chase Rice - Key West & Colorado (Official Music Video)
+                            </h3>
+                            <a href="https://www.youtube.com/@ChaseRiceMusic" target="_blank">
+                                Chase Rice
+                            </a>
+                            <span> 118 Thous. Views • 6 Months Ago </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- a video Ends -->
+                <!-- a video starts -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <a href="https://www.youtube.com/watch?v=BLzGw_NF2Gc" target="_blank"><img src="/static/img/wc.JPG" alt=""></a>
+                    </div>
+
+                    <div class="details">
+                        <div class="author">
+                            <img src="/static/img/wc_author.JPG" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Walker County - Mirror Mirror
+                            </h3>
+                            <a href="https://www.youtube.com/@WalkerCounty" target="_blank">
+                                Walker County
+                            </a>
+                            <span> 51 Thous. Views • 1 Month Ago </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- a video Ends -->
+                <!-- a video starts -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <a href="https://www.youtube.com/watch?v=XCS2k0KABCo" target="_blank"><img src="/static/img/lm.JPG" alt=""></a>
+                    </div>
+
+                    <div class="details">
+                        <div class="author">
+                            <img src="/static/img/lm_author.JPG" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Logan Mize - Weclome To Prairieville (Official Audio)
+                            </h3>
+                            <a href="https://www.youtube.com/@LoganMize" target="_blank">
+                                Logan Mize
+                            </a>
+                            <span> 52 Thous. Views • 1 Year Ago </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- a video Ends -->
+                <!-- a video starts -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <a href="https://www.youtube.com/watch?v=CpkZfkxdj2c" target="_blank"><img src="/static/img/lb.JPG" alt=""></a>
+                    </div>
+
+                    <div class="details">
+                        <div class="author">
+                            <img src="/static/img/lb_author.JPG" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Lee Brice - One Of Them Girls (Official Music Video)
+                            </h3>
+                            <a href="https://www.youtube.com/@LeeBriceMusic" target="_blank">
+                                Lee Brice
+                            </a>
+                            <span> 84 M Views • 2 Years Ago </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- a video Ends -->
+                <!-- a video starts -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <a href="https://www.youtube.com/watch?v=owa3lVJYDjU" target="_blank"><img src="/static/img/lub.JPG" alt=""></a>
+                    </div>
+
+                    <div class="details">
+                        <div class="author">
+                            <img src="/static/img/lub_author.JPG" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Luke Brian - Down To One (Official Audio)
+                            </h3>
+                            <a href="https://www.youtube.com/@lukebryan/featured" target="_blank">
+                                Luke Bryan
+                            </a>
+                            <span> 6,8 M Views • 2 Years Ago </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- a video Ends -->
+                <!-- a video starts -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <a href="https://www.youtube.com/watch?v=SBBhyMYnwCw" target="_blank"><img src="/static/img/cp.JPG" alt=""></a>
+                    </div>
+
+                    <div class="details">
+                        <div class="author">
+                            <img src="/static/img/cp_author.JPG" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Carly Pearce - I Hope You're Happy Now ft. Lee Brice
+                            </h3>
+                            <a href="https://www.youtube.com/@CarlyPearceOfficial" target="_blank">
+                                Carly Pearce
+                            </a>
+                            <span> 49 M Views • 3 Years Ago </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- a video Ends -->
+                <!-- a video starts -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <a href="https://www.youtube.com/watch?v=4h9o0Gujuoc" target="_blank"><img src="/static/img/bs_gs.JPG" alt=""></a>
+                    </div>
+
+                    <div class="details">
+                        <div class="author">
+                            <img src="/static/img/bs_author.JPG" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Blake Shelton - Nobody But You ft. Gwen Stefani (Official Music Video)
+                            </h3>
+                            <a href="https://www.youtube.com/@blakeshelton" target="_blank">
+                                Blake Shelton
+                            </a>
+                            <span> 83 M Views • 3 Years Ago </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- a video Ends -->
+                <!-- a video starts -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <a href="https://www.youtube.com/watch?v=QueVBgdVsVg" target="_blank"><img src="/static/img/ta.JPG" alt=""></a>
+                    </div>
+
+                    <div class="details">
+                        <div class="author">
+                            <img src="/static/img/ta_author.JPG" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Trace Adkins - Careful Girl (Official Visualizer)
+                            </h3>
+                            <a href="https://www.youtube.com/@TraceAdkins" target="_blank">
+                                Trace Adkins
+                            </a>
+                            <span> 39 Thous. Views • 1 Year Ago </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- a video Ends -->
+                <!-- a video starts -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <a href="https://www.youtube.com/watch?v=kwb6oYB4r3g" target="_blank"><img src="/static/img/tr_gu.JPG" alt=""></a>
+                    </div>
+
+                    <div class="details">
+                        <div class="author">
+                            <img src="/static/img/tr_author.JPG" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Thomas Rhett - Growing Up (Lyrics Video)
+                            </h3>
+                            <a href="https://www.youtube.com/@thomasrhettmusic" target="_blank">
+                                Thomas Rhett
+                            </a>
+                            <span> 872 Thous. Views • 1 Year Ago </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- a video Ends -->
+                <!-- a video starts -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <a href="https://www.youtube.com/watch?v=ruCcUzUyEhw" target="_blank"><img src="/static/img/ra.JPG" alt=""></a>
+                    </div>
+
+                    <div class="details">
+                        <div class="author">
+                            <img src="/static/img/ra_author.JPG" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Rodney Atkins - A Little Good News (Official Music Video)
+                            </h3>
+                            <a href="https://www.youtube.com/@RodneyAtkinsOfficial" target="_blank">
+                                Rodney Atkins
+                            </a>
+                            <span> 1 M Views • 2 Years Ago </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- a video Ends -->
+                <!-- a video starts -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <a href="https://www.youtube.com/watch?v=PjZV3TMB3wE" target="_blank"><img src="/static/img/km.JPG" alt=""></a>
+                    </div>
+
+                    <div class="details">
+                        <div class="author">
+                            <img src="/static/img/km_author.JPG" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Kip Moore - Damn Love (Official Audio)
+                            </h3>
+                            <a href="https://www.youtube.com/@KipMoore/featured" target="_blank">
+                                Kip Moore
+                            </a>
+                            <span> 20 Thous. Views • 1 Day Ago </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- a video Ends -->
+
+
+            </div>
+        </div>
+
+
+    </main>
+<!-- Main Body Ends -->
+
+</body>
+</html>
